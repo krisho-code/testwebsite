@@ -17,11 +17,11 @@ export default function Home() {
       </section>
       <div className="ribbon" aria-hidden="true"><div className="ribbon-track"><span>TÖLTSD MEG ✦ VIDD MAGADDAL ✦ TÖLTSD ÚJRA ✦ TÖLTSD MEG ✦ VIDD MAGADDAL ✦ TÖLTSD ÚJRA ✦</span><span>TÖLTSD MEG ✦ VIDD MAGADDAL ✦ TÖLTSD ÚJRA ✦ TÖLTSD MEG ✦ VIDD MAGADDAL ✦ TÖLTSD ÚJRA ✦</span></div></div>
       <ProductPalette />
-      <section id="ritual" className="ritual"><div className="wrap section"><p className="kicker">A mindennapi rutin</p><h2>Holnap is veled.</h2>
+      <section id="ritual" className="ritual"><div className="wrap section"><p className="kicker">A mindennapi rutin</p><h2>Egy bögre, egész nap.</h2>
       <div className="steps">
-      <article className="step"><span className="icon" aria-hidden="true">◒</span><h3>Töltsd meg.</h3><p>Otthon vagy a kedvenc kávézódban kezdd a napot a saját bögréddel.</p></article>
-      <article className="step"><span className="icon" aria-hidden="true">✦</span><h3>Vidd magaddal.</h3><p>Kortyolj egyet a parkban, két meeting között vagy útközben.</p></article>
-      <article className="step"><span className="icon" aria-hidden="true">↻</span><h3>Kezdd újra.</h3><p>Használat után mosd el, és készítsd ki a következő reggelre.</p></article>
+      <article className="step"><span className="icon" aria-hidden="true">◒</span><h3>Töltsd meg.</h3><p>Tölts bele egy kávét indulás előtt, vagy kérd a kedvenc italodat a saját bögrédbe a pultnál.</p></article>
+      <article className="step"><span className="icon" aria-hidden="true">✦</span><h3>Vidd magaddal.</h3><p>Kortyolj belőle a villamosra várva, az íróasztalodnál vagy egy séta közben.</p></article>
+      <article className="step"><span className="icon" aria-hidden="true">↻</span><h3>Holnap is töltsd meg.</h3><p>Este mosd el, és tedd a kávéfőző mellé, hogy reggel kéznél legyen.</p></article>
       </div></div></section>
       <section id="gyik" className="wrap section faq"><div><p className="kicker">GYIK</p><h2>Jó tudni.</h2></div><div>
       <details><summary>Kérhetem a kávémat a saját bögrémbe?</summary><p>A rendelés előtt kérdezd meg a pultnál. A saját bögre használatának feltételeiről a kávézó dönt.</p></details>
