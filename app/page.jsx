@@ -13,7 +13,7 @@ export default function Home() {
       <main>
       <section className="wrap hero" aria-labelledby="headline">
       <div><p className="kicker">Újrahasználható bögre</p><h1 id="headline">Jöhet még <span>egy kör.</span></h1><p className="copy">A reggeli presszóhoz, a délutáni matchához és minden megállóhoz közben. Töltsd meg, vidd magaddal, aztán kezdd újra.</p><a className="pill" href="#bogre">Ismerd meg a bögrét</a></div>
-      <div className="hero-art"><div className="cup" aria-hidden="true"><div className="shell"><b>KÖR.</b></div><div className="lid"></div></div><Image src={hero} alt="Erdőzöld, fedeles bögre limezöld háttér előtt" preload sizes="(max-width: 650px) 100vw, 50vw" /><div className="stamp" aria-hidden="true"><b>↻</b>Töltsd<br />újra</div></div>
+      <div className="hero-art"><div className="cup" aria-hidden="true"><div className="shell"><b>KÖR.</b></div><div className="lid"></div></div><Image src={hero} alt="Sötétbarna, fedeles bögre meleg tónusú háttér előtt" preload sizes="(max-width: 650px) 100vw, 50vw" /><div className="stamp" aria-hidden="true"><b>↻</b>Töltsd<br />újra</div></div>
       </section>
       <div className="ribbon" aria-hidden="true"><div className="ribbon-track"><span>TÖLTSD MEG ✦ VIDD MAGADDAL ✦ TÖLTSD ÚJRA ✦ TÖLTSD MEG ✦ VIDD MAGADDAL ✦ TÖLTSD ÚJRA ✦</span><span>TÖLTSD MEG ✦ VIDD MAGADDAL ✦ TÖLTSD ÚJRA ✦ TÖLTSD MEG ✦ VIDD MAGADDAL ✦ TÖLTSD ÚJRA ✦</span></div></div>
       <ProductPalette />
@@ -25,7 +25,7 @@ export default function Home() {
       </div></div></section>
       <section id="gyik" className="wrap section faq"><div><p className="kicker">GYIK</p><h2>Jó tudni.</h2></div><div>
       <details><summary>Kérhetem a kávémat a saját bögrémbe?</summary><p>A rendelés előtt kérdezd meg a pultnál. A saját bögre használatának feltételeiről a kávézó dönt.</p></details>
-      <details><summary>Milyen színekben láthatom a bögrét?</summary><p>A színválasztóban az erdőzöld, az agyagvörös és az esti lila változatot nézheted meg.</p></details>
+      <details><summary>Milyen színekben láthatom a bögrét?</summary><p>A színválasztóban az eszpresszóbarna, a terrakotta és a szilva változatot nézheted meg.</p></details>
       <details><summary>Hol tudom megrendelni?</summary><p>Ez a KÖR bemutatóoldala. A bögre rendelése még nem érhető el.</p></details>
       </div></section>
       </main>

@@ -3,9 +3,9 @@
 import { useState } from 'react';
 
 const colors = [
-  { name: 'Erdőzöld', cup: '#365848', cap: '#264539', stage: '#e0e8d7' },
-  { name: 'Agyagvörös', cup: '#a9503f', cap: '#743628', stage: '#f3ded4' },
-  { name: 'Esti lila', cup: '#655491', cap: '#483b74', stage: '#e8e1f5' },
+  { name: 'Eszpresszó', cup: '#51362e', cap: '#3b241e', stage: '#ead7c9' },
+  { name: 'Terrakotta', cup: '#b8543d', cap: '#80372a', stage: '#f7d6c7' },
+  { name: 'Szilva', cup: '#6e405e', cap: '#4c2b40', stage: '#eedce7' },
 ];
 
 export default function ProductPalette() {
