@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import hero from '../public/hero.jpg';
-import footerMugs from '../public/bogrek.jpg';
 import ProductPalette from './product-palette';
 
 export default function Home() {
@@ -31,17 +30,10 @@ export default function Home() {
       </div></section>
       </main>
       <footer id="lablec">
-        <div className="wrap footer-content">
-          <div className="footer-brand">
-            <a className="logo" href="#top" aria-label="KÖR, vissza az oldal tetejére">KÖR.</a>
-            <small>Újrahasználható bögre, minden napra.</small>
-            <a href="#top">Vissza az elejére ↑</a>
-          </div>
-          <Image
-            className="footer-photo"
-            src={footerMugs}
-            alt="Hét különböző színű, füles kerámiabögre fehér háttér előtt"
-          />
+        <div className="wrap">
+          <a className="logo" href="#top" aria-label="KÖR, vissza az oldal tetejére">KÖR.</a>
+          <small>Újrahasználható bögre, minden napra.</small>
+          <a href="#top">Vissza az elejére ↑</a>
         </div>
       </footer>
     </>
