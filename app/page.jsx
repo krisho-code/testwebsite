@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import hero from '../public/hero.jpg';
+import footerMugs from '../public/bogrek.jpg';
 import ProductPalette from './product-palette';
 
 export default function Home() {
@@ -29,7 +30,20 @@ export default function Home() {
       <details><summary>Hol tudom megrendelni?</summary><p>Ez a KÖR bemutatóoldala. A bögre rendelése még nem érhető el.</p></details>
       </div></section>
       </main>
-      <footer><div className="wrap"><a className="logo" href="#top" aria-label="KÖR, vissza az oldal tetejére">KÖR.</a><small>Újrahasználható bögre, minden napra.</small><a href="#top">Vissza az elejére ↑</a></div></footer>
+      <footer id="lablec">
+        <div className="wrap footer-content">
+          <div className="footer-brand">
+            <a className="logo" href="#top" aria-label="KÖR, vissza az oldal tetejére">KÖR.</a>
+            <small>Újrahasználható bögre, minden napra.</small>
+            <a href="#top">Vissza az elejére ↑</a>
+          </div>
+          <Image
+            className="footer-photo"
+            src={footerMugs}
+            alt="Hét különböző színű, füles kerámiabögre fehér háttér előtt"
+          />
+        </div>
+      </footer>
     </>
   );
 }
